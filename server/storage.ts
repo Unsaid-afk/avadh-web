@@ -1,20 +1,22 @@
-import { type User, type InsertUser } from "@shared/schema";
+import { type User, type InsertUser, type Inquiry, type InsertInquiry } from "@shared/schema";
 import { randomUUID } from "crypto";
-
-// modify the interface with any CRUD methods
-// you might need
 
 export interface IStorage {
   getUser(id: string): Promise<User | undefined>;
   getUserByUsername(username: string): Promise<User | undefined>;
   createUser(user: InsertUser): Promise<User>;
+  createInquiry(inquiry: InsertInquiry): Promise<Inquiry>;
+  getInquiries(): Promise<Inquiry[]>;
+  getInquiry(id: string): Promise<Inquiry | undefined>;
 }
 
 export class MemStorage implements IStorage {
   private users: Map<string, User>;
+  private inquiries: Map<string, Inquiry>;
 
   constructor() {
     this.users = new Map();
+    this.inquiries = new Map();
   }
 
   async getUser(id: string): Promise<User | undefined> {
@@ -32,6 +34,28 @@ export class MemStorage implements IStorage {
     const user: User = { ...insertUser, id };
     this.users.set(id, user);
     return user;
+  }
+
+  async createInquiry(insertInquiry: InsertInquiry): Promise<Inquiry> {
+    const id = randomUUID();
+    const inquiry: Inquiry = {
+      ...insertInquiry,
+      id,
+      phone: insertInquiry.phone || null,
+      createdAt: new Date(),
+    };
+    this.inquiries.set(id, inquiry);
+    return inquiry;
+  }
+
+  async getInquiries(): Promise<Inquiry[]> {
+    return Array.from(this.inquiries.values()).sort(
+      (a, b) => (b.createdAt?.getTime() || 0) - (a.createdAt?.getTime() || 0)
+    );
+  }
+
+  async getInquiry(id: string): Promise<Inquiry | undefined> {
+    return this.inquiries.get(id);
   }
 }
 

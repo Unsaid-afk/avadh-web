@@ -1,0 +1,84 @@
+Goal: Generate two parallel, fully animated website mockups (Desktop/Mobile) for Jaiswal Sales—one in Light Mode and one in Dark Mode—maintaining a premium, cohesive, and dynamic appearance.
+
+1. 🎨 Core Identity, Style, and Dual Modes
+Firm Name: Jaiswal Sales
+
+Location: Tejgadh
+
+Industry Focus: Private Sales and Distribution Firm (Focus on B2B/Retail supplies).
+
+Style: Ultra-Modern, Animated Flat Design with generous white space (Light Mode) and deep contrast (Dark Mode).
+
+Animation Requirement: High-quality, subtle parallax scrolling effects on background elements. Micro-animations on all interactive elements (buttons, icons, cards). Use a continuous, slow-motion abstract network/connection graphic as a dynamic background element.
+
+Color Palette (Unified):
+
+Primary/Brand Color: Professional Deep Teal or a rich, modern Corporate Blue (#004D40 or similar).
+
+Accent Color (CTAs/Highlights): A bright, muted Gold/Amber that pops in both modes.
+
+Typography: Clean, readable, professional Sans-serif.
+
+A. Light Mode Specification
+Backgrounds: Crisp White and very light gray.
+
+Text: Dark Gray/Black for readability.
+
+Feel: Airy, professional, trustworthy.
+
+B. Dark Mode Specification
+Backgrounds: Deep, soft black or a dark slate blue (avoid harsh pure black).
+
+Text: Pure White or light gray for contrast.
+
+Feel: Premium, high-tech, modern, and easy on the eyes.
+
+2. 🏛️ Required Sections and Information
+The design must clearly illustrate the appearance of the following sections in both Light and Dark modes:
+
+A. Hero Section (Animated)
+Animation: Animated tagline reveal and the network graphic subtly moving in the background.
+
+Content: Tagline: "Reliable Sales and Distribution in Tejgadh and Beyond."
+
+Feature: A toggle switch graphic prominently placed (e.g., top-right) demonstrating the Light/Dark mode change.
+
+CTA: Prominent Gold button: "Inquire Now."
+
+B. About Us / Our Story
+Include a space for owner Jatin Jaiswal's image (placeholder: professional silhouette/abstract profile).
+
+Focus on trust and 2014 founding.
+
+C. Services Grid (Animated Icons)
+Layout: Four-column grid (Desktop) or single-column scroll (Mobile). Icons should transition color or size on hover.
+
+Services: B2B Distribution, Retail Sales Management, Logistics & Supply Chain Consulting, Local Market Penetration.
+
+D. Contact Information Section (Full Visibility)
+This section must be the anchor of trust, professionally presenting all contact details in an easy-to-copy/click format (buttons/links):
+
+Owner: Jatin Jaiswal
+
+Personal Phone: 8401772172
+
+Personal Email: jatinjaiswal1977@gmail.com
+
+Firm Email: jaiswalsales2014@outlook.com
+
+Location: Tejgadh (with stylized map integration).
+
+Form: A simple, embedded inquiry form.
+
+E. Footer
+Navigation links and Copyright.
+
+3. 🖥️ Technical & Design Constraints
+Output: Must generate two parallel, complete mockups (Light Mode and Dark Mode) for comparison.
+
+Device: Both Desktop (1920x1080) and a clear Mobile Portrait layout should be evident.
+
+Clarity: The final image must be a highly detailed, professional UI/UX render, clearly demonstrating the animation style (e.g., via motion blur lines or directional arrows).
+
+Final Integrated Prompt (For AI Generator):
+"Design two parallel, high-fidelity, fully animated website mockups for Jaiswal Sales, a Tejgadh-based private distribution firm: one in Light Mode and one in Dark Mode. The design must be Ultra-Modern Flat Design using a primary Deep Teal and an Amber/Gold accent. Include continuous, subtle abstract network background animation and parallax scrolling effects. The site must prominently feature the owner Jatin Jaiswal and all contact information: Phone 8401772172, Personal Email jatinjaiswal1977@gmail.com, and Firm Email jaiswalsales2014@outlook.com. The mockups must clearly show a Light/Dark Mode toggle, a clean Services grid, and professional typography. Ensure the design is optimized and rendered for both Desktop and Mobile views."
